@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href=""><img src="img/logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>   
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close" onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent" onclick="showMenu()"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>We love to hear from you</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN CONTACT</span>
+            <h2>Visit our shop or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>689 Tran Phu Street, Danang City </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <p> dungttt.21it@vku.ugn.vn </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>0123456789 /(84)986493859 </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <p>Monday to Sunday : 8.00am to 21.00pm </p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.
+            7388104523375!2d108.25104871523362!3d15.975010588939167!2m3!1f0!2f0!3f0!
+            3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142108997dc971f%3A0x1295cb3d313469c9!
+            2sVietnam%20-%20Korea%20University%20of%20Information%20and%20Communication%20Technology
+            .!5e0!3m2!1sen!2s!4v1653622299061!5m2!1sen!2s"  style="border:0;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="" onsubmit="event.preventDefault(); validateForm()">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" class="input-border" id="name" placeholder="Your Name" autofocus>
+            <small class="error err-border"></small>
+
+            <input type="text" class="input-border" id="email" placeholder="E-mail">
+            <small class="error"></small>
+
+            <input type="text" class="input-border" id="subject" placeholder="Subject">
+            <small class="error"></small>
+
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button class="normal">Submit</button>
+            <p id="success"></p>
+        </form>
+        <div class="people">
+            <div>
+                <img src="img\junjun2.png" alt="">
+                <p><span>Thu Dung</span>
+                    <br> Chief Executive Officer
+                    <br> Phone: 0980765463
+                    <br> Email: dungttt.21it@vku.udn.vn
+                </p>
+            </div>
+            <div>
+                <img src="img\Min.png" alt="">
+                <p><span>Thiên Minh</span>
+                    <br> Financial Manager
+                    <br> Phone: 0578434572
+                    <br> Email: minhnt.21it@vku.udn.vn
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about out latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 689 Tran Phu Street, Danang City </p>
+            <p><strong>Phone: </strong> 0123456789 /(84)986493859</p>
+            <p><strong>Hours: </strong> 8:00 - 21:00, Mon - Sun</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img\pay\app.jpg" alt="">
+                <img src="img\pay\play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="img\pay\pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p> &copy; JJ Com - Our Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

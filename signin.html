@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href=""><img src="img/logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="signin.html">Sign In</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close" onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent" onclick="showMenu()"></i>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="signin-box">
+        <div class="signin-signup">
+            <form action="" class="sign-in-form">
+                <h2 class="signin-title">Sign in</h2>
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Login" class="btn-submit">
+                <p class="social-text">Or Sign in With social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                </div >
+                <p class="account-text">Don't have an account ? <a href="#" class="" id="sign-up-btn2">Sign up</a></p>
+            </form>
+
+            <form action="" class="sign-up-form">
+                <h2 class="signin-title">Sign up</h2>
+                <div class="input-field">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Sign up" class="btn-submit">
+                <p class="social-text">Or Sign in With social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                </div >
+                <p class="account-text">Already have an account ? <a href="#" class="" id="sign-in-btn2">Sign in</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>Member of Brand ?</h3>
+                    <p>It is honor for us to be with you upcoming. We hope you will have best experiences here</p>
+                    <button class="btn-submit" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src="img\Removal-9.png" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>New to Brand ?</h3>
+                    <p>It is honor for us to be with you upcoming. We hope you will have best experiences here</p>
+                    <button class="btn-submit" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="img\Removal-9.png" alt="" class="image">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

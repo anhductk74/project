@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href=""><img src="img/logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close" onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent" onclick="showMenu()"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+        <button>Shop now</button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>F24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        
+        <h2>Featured Products</h2>
+        <p><p>Summer Collection New Modern Design</p></p>
+        <div class="pro-container">
+            <div class="pro">
+                <img class="product-img" src="https://cdn-amz.fadoglobal.io/images/I/51QUIlSChqL.jpg" alt="">
+                <div class="des">
+                    <span>Eone</span>
+                    <h5 class="product-title">Eone Bradley Classic Watch</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$389</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.ytecaocap.com/uploads/Products/1442/m_1442.jpg" alt="">
+                <div class="des">
+                    <span>OEM</span>
+                    <h5 class="product-title">Aluminium Axilla Crutches</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$25.35</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/34b3a3bb6f22d6b6e3c42618703a1fe9/e/a/ea_three_wheel_walker_lg.jpg" alt="">
+                <div class="des">
+                    <span>HUST</span>
+                    <h5 class="product-title">Three Wheel Walker with Bag</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/34b3a3bb6f22d6b6e3c42618703a1fe9/w/i/wickerwork-commode1.jpg" alt="">
+                <div class="des">
+                    <span>Ninxo</span>
+                    <h5 class="product-title">Wickerwork Commode</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$169.99</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/34b3a3bb6f22d6b6e3c42618703a1fe9/k/k/kk_ws-bkt.png" alt="">
+                <div class="des">
+                    <span>Ninxo</span>
+                    <h5 class="product-title">Walking Stick Bracket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$6.75</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/34b3a3bb6f22d6b6e3c42618703a1fe9/c/o/coloured-crutches2.jpg" alt="">
+                <div class="des">
+                    <span>HUST</span>
+                    <h5 class="product-title">Coloured Crutches</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/34b3a3bb6f22d6b6e3c42618703a1fe9/e/a/ea_foldingwalsall_large.jpg" alt="">
+                <div class="des">
+                    <span>M&D</span>
+                    <h5 class="product-title">Folding Walsall Trolley</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$109.75</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/34b3a3bb6f22d6b6e3c42618703a1fe9/g/r/gripware-high-sided-dish2.jpg" alt="">
+                <div class="des">
+                    <span>NHS</span>
+                    <h5 class="product-title">GripWare High-Sided Dish</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$18.33</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>15% Off</span>  - All Items</h2>
+        <button class="normal">Explore more</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        
+        <h2>New Arrivals</h2>
+        <p><p>New Modern Design</p></p>
+        <div class="pro-container">
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/34b3a3bb6f22d6b6e3c42618703a1fe9/s/c/scooter-oxygen-bottle-carrie1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Scooter Oxygen Bottle Carrier</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/cdd8635ce530ab2c89d21ecd3335282f/n/o/norco-universal-cuff2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Norco Universal Cuff</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.essentialaids.com/pub/media/catalog/product/cache/cdd8635ce530ab2c89d21ecd3335282f/e/u/european-style-quad-cane1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">European Style Quad Cane</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://sc04.alicdn.com/kf/Hb1420c5fabb949f1a6a333f450384e6dU.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Telescopic walking sticks</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.maxiaids.com/Media/Thumbs/0021/0021019-orbit-reader-20.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Orbit Reader 20</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://product.hstatic.net/200000234997/product/7_13180880277b40299182e7696db6f3ec_master.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">In Ear Hearing Aids</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://www.maxiaids.com/Media/Thumbs/0019/0019402-a-victor-reader-trek.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Victor Reader Trek</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="pro">
+                <img class="product-img" src="https://cdn11.bigcommerce.com/s-99g2nefzbl/products/116/images/378/Lexie_hearing_aid_light_gray_2__55214__01104.1644219538.386.513.jpg?c=1" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="product-title">Lexie Hearing Aids</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4 class="price">$78</h4>
+                </div>
+                <a href="#"><i id="icon" class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>Buy 1 get 1 free</h2>
+            <span>The best choice is on sale</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>upcomming season</h2>
+            <span>The best choice is on sale</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            
+        </div>
+        <div class="banner-box banner-box2">
+            
+        </div>
+        <div class="banner-box banner-box3">
+            
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about out latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 689 Tran Phu Street, Danang City </p>
+            <p><strong>Phone: </strong> 0123456789 /(84)986493859</p>
+            <p><strong>Hours: </strong> 8:00 - 21:00, Mon - Sun</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img\pay\app.jpg" alt="">
+                <img src="img\pay\play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="img\pay\pay.png" alt="">
+        </div>    
+        <div class="copyright">
+            <p> &copy; JJ Com - Our Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

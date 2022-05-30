@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href=""><img src="img/logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close" onclick="hideMenu()"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent" onclick="showMenu()"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="blog-header">
+        <h2>#readmore</h2>
+        <p>To know about us - special human !</p>
+    </section>
+
+    <section id="blog">
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="https://www.studying-in-uk.org/wp-content/uploads/2018/04/students-with-disabilities-696x464.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Where to start supporting Students with Unique Needs…?</h4>
+                <p>Sometimes we need to get creative when addressing
+                the AT needs of students with complex physical challenges...</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>15/05<h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="https://dyslexiaresource.org/wp-content/uploads/2020/05/Tips-to-Support-Reading-Comprehension-at-Home.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>How Can We Support Reading Comprehension for ALL?</h4>
+                <p>Students with learning disabilities may need an array of 
+                    supports, including various forms of assistive technology 
+                    (AT) to communicate...  </p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>14/05<h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="https://peninsulaspeech.com.au/wp-content/uploads/2016/03/aac_language_lab.jpg" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>"I Use My Device to Talk!" AAC Social Story</h4>
+                <p>"I Use My Device to Talk!" is an interactive social story to 
+                    help students learn that their AAC device is for talking, not 
+                    for throwing.</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>10/05<h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="https://i0.wp.com/1techydude.com/wp-content/uploads/2020/12/Chromebook-Accessibility-Features-1.png?fit=757%2C451&ssl=1&resize=1280%2C720" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>Chromebooks and Accessibility Supports</h4>
+                <p>With Chromebooks for 1:1 device use, 
+                    how these devices can provide the accessibility 
+                    supports needed by our students with physical and/or learning disabilities...</p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>08/05<h1>
+        </div>
+        <div class="blog-box">
+            <div class="blog-img">
+                <img src="https://stjudes.com.au/wp-content/uploads/2021/07/Assistive-Technology.png" alt="">
+            </div>
+            <div class="blog-details">
+                <h4>AT Supports for School AND Home</h4>
+                <p>Listing of resources for providing assistive technology support in the home and school. </p>
+                <a href="#">CONTINUE READING</a>
+            </div>
+            <h1>30/04<h1>
+        </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-right-long"></i></a>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about out latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 689 Tran Phu Street, Danang City </p>
+            <p><strong>Phone: </strong> 0123456789 /(84)986493859</p>
+            <p><strong>Hours: </strong> 8:00 - 21:00, Mon - Sun</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img\pay\app.jpg" alt="">
+                <img src="img\pay\play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="img\pay\pay.png" alt="">
+        </div>    
+        <div class="copyright">
+            <p> &copy; JJ Com - Our Ecommerce Website</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
